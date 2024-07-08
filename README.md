@@ -6,5 +6,7 @@ Descrição
 A rotina consiste em:
 
 Download dos Dados: Baixa os dados públicos do CAFIR.
+
 Processamento dos Dados: Realiza o tratamento dos dados baixados.
+
 Upload para Banco de Dados: Insere os dados processados em um banco de dados especificado.
