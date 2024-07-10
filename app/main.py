@@ -5,7 +5,7 @@ from modules.menu import *
 from modules.check_update import checkUpdate
 from dados.baixar_dados import baixar_dados
 from dados.sql import sqlserver
-from dados.tabela_sql import tabelas_sql
+from dados.tabela_sql import tabela_sql
 import os 
 
 
@@ -42,7 +42,8 @@ este processo pode levar um tempo, Deseja continuar?'''
             sqlserver()
     
     elif option == 4:
-        tabelas_sql()
+        tabela_sql()
+
 if __name__ == "__main__":
     checkUpdate()
     while True:
